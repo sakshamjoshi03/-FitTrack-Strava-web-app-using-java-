@@ -12,7 +12,6 @@ A lightweight, privacy-focused web application for tracking and visualizing GPS 
 - 📍 **GPS Route Recording** - Track activities using browser geolocation API
 - 🗺️ **Interactive Maps** - Visualize routes on OpenStreetMap with Leaflet.js
 - 📊 **Statistics Dashboard** - View weekly/monthly distance, duration, and progress
-- 💾 **Data Export** - Export activities to CSV for backup
 - 🔒 **Privacy First** - All data stored locally in SQLite (no cloud sync)
 - 🌐 **Offline Capable** - Works without internet after initial load
 - 📱 **Responsive Design** - Desktop and tablet friendly
@@ -28,7 +27,7 @@ A lightweight, privacy-focused web application for tracking and visualizing GPS 
 
 | Component | Technology |
 |-----------|-----------|
-| **Backend** | Java 17+ with Javalin framework |
+| **Backend** | Springboot |
 | **Database** | SQLite (file-based, zero-config) |
 | **Frontend** | HTML5, CSS3, Vanilla JavaScript |
 | **Maps** | Leaflet.js + OpenStreetMap (free!) |
@@ -169,13 +168,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [OpenStreetMap](https://www.openstreetmap.org/) - Free map data
 - [Chart.js](https://www.chartjs.org/) - Simple yet flexible charting
 
-## 📧 Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - your.email@example.com
-
-Project Link: [https://github.com/yourusername/fittrack](https://github.com/yourusername/fittrack)
-
----
 
 **Made with ❤️ and Java**
 ```
